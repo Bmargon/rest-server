@@ -1,6 +1,7 @@
 // 
 // Puerto
 //
+
 process.env.PORT = process.env.PORT || 3000
 //
 // Entorno
@@ -17,3 +18,12 @@ if (process.env.NODE_ENV === 'dev') {
 }
 
 process.env.URLDB = urlDB
+//
+// Caducidad token
+//
+process.env.CADUCIDAD = 60 * 60 * 24 * 30
+//
+// SEED
+//
+
+process.env.SEED = process.env.SEED || 'secretoDEV'
