@@ -25,5 +25,8 @@ process.env.CADUCIDAD = 60 * 60 * 24 * 30
 //
 // SEED
 //
-
 process.env.SEED = process.env.SEED || 'secretoDEV'
+//
+// Google client
+//
+process.env.CLIENT_ID = process.env.CLIENT_ID || '286957252245-cotnivg8qu177de8q6nia2b31n0ipkhr.apps.googleusercontent.com'
